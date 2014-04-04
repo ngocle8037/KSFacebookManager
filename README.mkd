@@ -1,0 +1,14 @@
+# KSFacebookManager
+
+## Prerequisite
+
+The build requires [CocoaPods](https://github.com/cocoapods/cocoapods) to be installed in your development environment.
+
+```
+$ make install
+```
+
+## Author
+
+- Shintaro Kaneko <kaneshin0120@gmail.com>
+

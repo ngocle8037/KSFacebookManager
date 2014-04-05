@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1814247BCD474BC1B33C3C07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3115A95E374D77A0F523B7 /* libPods.a */; };
+		37D464DCF18E3E432F83AF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D4645AC84D3A4E2B5E7273 /* InfoPlist.strings */; };
+		37D4657B2CE365225EAA0623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D46D58CAFAC1C9850E815D /* main.m */; };
 		79FB508318EF09A200F0B48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB508218EF09A200F0B48E /* Foundation.framework */; };
 		79FB508518EF09A200F0B48E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB508418EF09A200F0B48E /* CoreGraphics.framework */; };
 		79FB508718EF09A200F0B48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB508618EF09A200F0B48E /* UIKit.framework */; };
 		79FB50C918EF0A1500F0B48E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FB50BB18EF0A1500F0B48E /* Main_iPad.storyboard */; };
 		79FB50CA18EF0A1500F0B48E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FB50BD18EF0A1500F0B48E /* Main_iPhone.storyboard */; };
-		79FB50CB18EF0A1500F0B48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FB50BF18EF0A1500F0B48E /* InfoPlist.strings */; };
 		79FB50CD18EF0A1500F0B48E /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB50C318EF0A1500F0B48E /* KSAppDelegate.m */; };
 		79FB50CF18EF0A1500F0B48E /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB50C718EF0A1500F0B48E /* KSViewController.m */; };
-		79FB50D018EF0A1500F0B48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB50C818EF0A1500F0B48E /* main.m */; };
 		79FB50D418EF0AB000F0B48E /* KSFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB50D318EF0AB000F0B48E /* KSFacebookManager.m */; };
+		79FB50D818EFFC4900F0B48E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FB50D718EFFC4900F0B48E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E3115A95E374D77A0F523B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D4611A27D358265DD66C4F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37D466E24BBF5E006F88FAE7 /* KSFacebookManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KSFacebookManager-Prefix.pch"; sourceTree = "<group>"; };
+		37D46C1B89E7AA86079EF219 /* KSFacebookManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "KSFacebookManager-Info.plist"; sourceTree = "<group>"; };
+		37D46D58CAFAC1C9850E815D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79FB507F18EF09A200F0B48E /* KSFacebookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSFacebookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FB508218EF09A200F0B48E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79FB508418EF09A200F0B48E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -29,16 +34,13 @@
 		79FB50A418EF09A200F0B48E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		79FB50BC18EF0A1500F0B48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		79FB50BE18EF0A1500F0B48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		79FB50C018EF0A1500F0B48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79FB50C218EF0A1500F0B48E /* KSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		79FB50C318EF0A1500F0B48E /* KSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
-		79FB50C418EF0A1500F0B48E /* KSFacebookManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KSFacebookManager-Info.plist"; sourceTree = "<group>"; };
-		79FB50C518EF0A1500F0B48E /* KSFacebookManager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KSFacebookManager-Prefix.pch"; sourceTree = "<group>"; };
 		79FB50C618EF0A1500F0B48E /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
 		79FB50C718EF0A1500F0B48E /* KSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
-		79FB50C818EF0A1500F0B48E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79FB50D218EF0AB000F0B48E /* KSFacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSFacebookManager.h; sourceTree = "<group>"; };
 		79FB50D318EF0AB000F0B48E /* KSFacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSFacebookManager.m; sourceTree = "<group>"; };
+		79FB50D718EFFC4900F0B48E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FBE2A9C76FCA4D9981F2989B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37D463CA1EA2313EB220AA6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D4645AC84D3A4E2B5E7273 /* InfoPlist.strings */,
+				37D46D58CAFAC1C9850E815D /* main.m */,
+				37D46C1B89E7AA86079EF219 /* KSFacebookManager-Info.plist */,
+				37D466E24BBF5E006F88FAE7 /* KSFacebookManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		79FB507618EF09A200F0B48E = {
 			isa = PBXGroup;
 			children = (
@@ -91,16 +104,14 @@
 		79FB50BA18EF0A1500F0B48E /* KSFacebookManager-example */ = {
 			isa = PBXGroup;
 			children = (
+				79FB50D718EFFC4900F0B48E /* Images.xcassets */,
 				79FB50BB18EF0A1500F0B48E /* Main_iPad.storyboard */,
 				79FB50BD18EF0A1500F0B48E /* Main_iPhone.storyboard */,
-				79FB50BF18EF0A1500F0B48E /* InfoPlist.strings */,
 				79FB50C218EF0A1500F0B48E /* KSAppDelegate.h */,
 				79FB50C318EF0A1500F0B48E /* KSAppDelegate.m */,
-				79FB50C418EF0A1500F0B48E /* KSFacebookManager-Info.plist */,
-				79FB50C518EF0A1500F0B48E /* KSFacebookManager-Prefix.pch */,
 				79FB50C618EF0A1500F0B48E /* KSViewController.h */,
 				79FB50C718EF0A1500F0B48E /* KSViewController.m */,
-				79FB50C818EF0A1500F0B48E /* main.m */,
+				37D463CA1EA2313EB220AA6C /* Supporting Files */,
 			);
 			path = "KSFacebookManager-example";
 			sourceTree = "<group>";
@@ -170,8 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FB50C918EF0A1500F0B48E /* Main_iPad.storyboard in Resources */,
-				79FB50CB18EF0A1500F0B48E /* InfoPlist.strings in Resources */,
+				79FB50D818EFFC4900F0B48E /* Images.xcassets in Resources */,
 				79FB50CA18EF0A1500F0B48E /* Main_iPhone.storyboard in Resources */,
+				37D464DCF18E3E432F83AF3E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +229,22 @@
 			files = (
 				79FB50CD18EF0A1500F0B48E /* KSAppDelegate.m in Sources */,
 				79FB50D418EF0AB000F0B48E /* KSFacebookManager.m in Sources */,
-				79FB50D018EF0A1500F0B48E /* main.m in Sources */,
 				79FB50CF18EF0A1500F0B48E /* KSViewController.m in Sources */,
+				37D4657B2CE365225EAA0623 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		37D4645AC84D3A4E2B5E7273 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D4611A27D358265DD66C4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		79FB50BB18EF0A1500F0B48E /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -239,14 +259,6 @@
 				79FB50BE18EF0A1500F0B48E /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		79FB50BF18EF0A1500F0B48E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79FB50C018EF0A1500F0B48E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

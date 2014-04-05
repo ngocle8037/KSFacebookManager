@@ -116,7 +116,7 @@
     [self.session close];
 }
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)application:(__unused UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(__unused id)annotation
 {
     return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:self.session];
 }
